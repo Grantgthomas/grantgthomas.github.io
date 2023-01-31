@@ -94,7 +94,7 @@
 			}
 
 	// Main Sections: Two.
-
+	// Edit the popups from images
 		// Lightbox gallery.
 			$window.on('load', function() {
 

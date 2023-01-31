@@ -151,6 +151,13 @@ input, select, textarea {
 		line-height: 1.5em;
 	}
 
+	h1.align-center{
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
 	h2 {
 		font-size: 1.5em;
 		line-height: 1.5em;
@@ -2125,8 +2132,11 @@ input, select, textarea {
 
 		.image.fit {
 			display: block;
-			margin: 0 0 2em 0;
-			width: 100%;
+			/*margin: auto auto 2em 0;*/
+			width: 70%;
+			margin-left: auto;
+			margin-right: auto;
+			
 		}
 
 			.image.fit img {
@@ -2386,7 +2396,7 @@ input, select, textarea {
 		table td {
 			padding: 0.75em 0.75em;
 		}
-
+		
 		table th {
 			color: #787878;
 			font-size: 0.9em;
@@ -2679,6 +2689,16 @@ input, select, textarea {
 				color: inherit;
 			}
 
+/*Iframe*/
+#framed {
+	margin-top: 10px;
+}
+	#framed > section{
+	margin-left: 50px;
+	margin-right: 50px;
+	
+	}	
+
 /* Main */
 
 	#main {
@@ -2689,7 +2709,7 @@ input, select, textarea {
 	}
 
 		#main > section {
-			border-top: solid 2px #efefef;
+			/*border-top: solid 2px #efefef;*/
 			margin: 4em 0 0 0;
 			padding: 4em 0 0 0;
 		}
