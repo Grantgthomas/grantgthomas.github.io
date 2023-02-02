@@ -1,3 +1,7 @@
+Welcome to my portfolio!
+
+This portfolio was built by modifying the Strata html template from HTML5 UP. Please see a message from the creators below.
+
 Strata by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
