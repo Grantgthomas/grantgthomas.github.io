@@ -57,7 +57,7 @@
 						</ul>
 					</section>
 
-					<section id="four">
+					<!--<section id="four">
 						<h1>Skills</h1>
 						<div class="table-wrapper">
 							<table>
@@ -65,6 +65,13 @@
 									<tr>
 										<th></th>
 										<th></th>
+									</tr>
+								</thead>
+								<thead>
+									<tr>
+										<th><h3>Security Tools:</h3></th>
+										<th><h3>Kali Linux, Acunetix (DAST), Mend (SCA), CheckMarx (SAST), IriusRisk, Wiz, Prisma Cloud,
+											Grafana Loki (Logging), Sumo Logic (Logging), Burp Suite, Tenable Nessus, VMWare Workstation</h3></th>
 									</tr>
 								</thead>
 								<thead>
@@ -77,28 +84,84 @@
 								<thead>
 									<tr>
 										<th><h3>Developer Tools:</h3></th>
-										<th><h3>Git, Docker, AWS ECS, VS Code, Postman</h3></th>
-									</tr>
-								</thead>
-								<thead>
-									<tr>
-										<th><h3>Frameworks And Libraries:</h3></th>
-										<th><h3>Selenium, Gin, REST, ASP.NET, React</h3></th>
-									</tr>
-								</thead>
-								<thead>
-									<tr>
-										<th><h3>Security Tools:</h3></th>
-										<th><h3>Kali Linux, Tenable Nessus, VMWare Workstation, Oracle VirtualBox, OneTrust</h3></th>
+										<th><h3>Git, Docker, AWS, VS Code, Postman</h3></th>
 									</tr>
 								</thead>
 							</table>
 						</div>
+					-->
 						<!--<p><strong>Languages: </strong>Java, Python, Golang, SQL, Powershell</p>
 						<p><strong>Software: </strong>AWS ECS, Selenium, Kali Linux, VMWare Workstation, Git</p>
 -->
 
 					</section>
+					<section id="five">
+						<h1>Skills</h1>
+						<div class="skills-list">
+							<h3>Security Tools:</h3>
+							<ul class="multi-column">
+								<li>Kali Linux</li>
+								<li>Acunetix (DAST)</li>
+								<li>Mend (SCA)</li>
+								<li>CheckMarx (SAST)</li>
+								<li>IriusRisk</li>
+								<li>Wiz</li>
+								<li>Prisma Cloud</li>
+								<li>Grafana Loki</li>
+								<li>Sumo Logic</li>
+								<li>Burp Suite</li>
+								<li>Tenable Nessus</li>
+								<li>VMWare Workstation</li>
+							</ul>
+				
+							<h3>Programming Languages:</h3>
+							<ul class="multi-column">
+								<li>Java</li>
+								<li>JavaScript</li>
+								<li>Python</li>
+								<li>Golang</li>
+								<li>C#</li>
+								<li>C</li>
+								<li>SQL</li>
+								<li>MongoDB</li>
+								<li>PowerShell</li>
+								<li>HTML</li>
+								<li>CSS</li>
+							</ul>
+				
+							<h3>Developer Tools:</h3>
+							<ul class="multi-column">
+								<li>Git</li>
+								<li>Docker</li>
+								<li>AWS</li>
+								<li>VS Code</li>
+								<li>Postman</li>
+							</ul>
+						</div>
+					</section>
+
+					<style>
+						.multi-column {
+							column-count: 2; /* Default to 2 columns */
+							column-gap: 2px;
+							padding: 0;
+							list-style-type: disc;
+							break-inside: avoid;
+							font-size: 1.2em; /* Increased font size */
+							line-height: 1.6; /* Improved readability */
+						}
+					
+						/* Ensure lists with 7 items or fewer remain single-column */
+						.multi-column li:nth-child(n+8) {
+							column-count: 2;
+						}
+					
+						@media (max-width: 768px) {
+							.multi-column {
+								column-count: 1; /* Single column on smaller screens */
+							}
+						}
+					</style>
 
 				<!-- Two -->
 					<section id="two">
